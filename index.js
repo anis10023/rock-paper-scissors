@@ -47,7 +47,7 @@ function gameRound(playerSelection) {
   if (playerSelection == "rock" && computerSelection == "paper") {
     computerWon = true;
     playerWon = false;
-    console.log("You lose this round! Rock loses to Papeer");
+    console.log("You lose this round! Rock loses to Paper");
   }
   if (playerSelection == "scissor" && computerSelection == "rock") {
     computerWon = true;
@@ -65,7 +65,7 @@ function game() {
   let playerCount = 0;
   let computerCount = 0;
   for (i = 0; i < 5; i++) {
-    let playerSelection = prompt("Rock, Paper, Scissors GO!");
+    let playerSelection = prompt("Rock, Paper, Scissor GO!");
     gameRound(playerSelection);
 
     if (playerWon && computerWon) {
