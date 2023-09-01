@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 10;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+h1 {
+    color: #B8FFD4
+}
+
+h2 { 
+    color: whitesmoke;
+    font-weight: normal
+}
+
+.function {
+    font-weight: 600;
+    color: 	#FFE4C4;
+}
+
+.word{
+    font-weight: 800;
+    font-size: 2rem;
+    color: #FF5E5F
+}
+
+.arrow {
+    font-size: 2rem;
+    color: whitesmoke;
+}
