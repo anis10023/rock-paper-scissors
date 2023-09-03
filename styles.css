@@ -10,12 +10,13 @@ body {
 }
 
 h1 {
-    color: #B8FFD4
+    color: #B8FFD4;
+    font-size: 3.8rem;
 }
 
 h2 { 
     color: whitesmoke;
-    font-weight: normal
+    font-weight: normal;
 }
 
 .function {
@@ -32,4 +33,42 @@ h2 {
 .arrow {
     font-size: 2rem;
     color: whitesmoke;
+}
+
+.score-board {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.score-board > div{
+    display: flex;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgb(0, 123, 255);
+}
+
+.game-log{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #fb6666;
+    border-radius: 15px;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-text {
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.endState {
+    transform: scale(3);
+    color: burlywood
 }
